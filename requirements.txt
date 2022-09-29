@@ -1,11 +1,11 @@
 cssselect==0.9.1
 dj-database-url==0.4.1
-Django==1.11
-django-filter==0.14.0
-djangorestframework==3.4.6
+Django==3.2.15
+django-filter==2.4.0
+djangorestframework==3.11.2
 flup==1.0.2
-gunicorn==19.6.0
-lxml==3.4.2
+gunicorn==19.10.0
+lxml==4.9.1
 Markdown==2.6.6
 pymongo==2.8
 pyquery==1.2.9
@@ -15,4 +15,5 @@ six==1.9.0
 whitenoise==3.2.1
 django-treebeard==4.1.0
 markdown2==2.3.1
-bleach==1.5.0
+bleach==3.3.0
+html5lib>=0.99999999 # not directly required, pinned by Snyk to avoid a vulnerability
